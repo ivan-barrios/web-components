@@ -13,9 +13,9 @@ const Navbar = () => (
     whileInView="show"
     className="sm:px-16 px-6 py-8 relative"
   >
-    {/* The following div is only to show the gradient */}
-    <div className="absolute w-[50%] inset-0 gradient-01" />
-    <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between gap-8">
+    {/* You can use the following div only if you do not have an image background */}
+    {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
+    <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between items-center gap-8">
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
         LOGO/TITLE
       </h2>
