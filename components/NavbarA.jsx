@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { navVariants } from "../motion";
+import { navVariants } from "../animations/motion";
 
-// You can organize the navbar in any way you want
+// Animations in this file are optional, you can remove them if you want
 
 const Navbar = () => (
   <motion.nav
@@ -13,11 +13,11 @@ const Navbar = () => (
     whileInView="show"
     className="sm:px-16 px-6 py-8 relative"
   >
-    {/* You can use the following div only if you do not have an image background */}
+    {/* The following div is a gradient */}
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
     <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between items-center gap-8">
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
-        LOGO/TITLE
+        LOGO
       </h2>
       <ul className="hidden md:flex gap-12 mr-8 text-xl">
         <li className="text-white font-medium">

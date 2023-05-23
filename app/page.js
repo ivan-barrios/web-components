@@ -1,13 +1,16 @@
-import Navbar from "@/components/Navbar";
-import Header from "@/components/Header";
-import Image from "next/image";
+import NavbarA from "@/components/NavbarA";
+import HeroA from "@/components/HeroA";
 
 export default function Home() {
   return (
-    <main className="bg-[url('../public/header-bg.jpeg')] bg-cover h-screen bg-center overflow-hidden">
-      <div className="bg-dark-color bg-opacity-50">
-        <Navbar />
-        <Header />
+    <main className="overflow-hidden bg-[#00040f]">
+      <NavbarA />
+      <div className="flex justify-center items-start">
+        <div className="xl:max-w-[1280px] w-full">
+          <HeroA />
+        </div>
+        {/* SectionA */}
+        {/* FooterA */}
       </div>
     </main>
   );
