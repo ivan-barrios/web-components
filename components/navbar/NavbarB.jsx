@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { navVariants } from "../animations/motion";
+import { navVariants } from "../../animations/motion";
 
 // Animations in this file are optional, you can remove them if you want
 
@@ -11,11 +11,11 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className="sm:px-16 px-6 py-8 relative"
+    className="py-8 relative"
   >
     {/* The following div is a gradient */}
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
-    <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between items-center gap-8">
+    <div className="xl:max-w-[1280px] w-full mx-auto flex justify-between items-center gap-8">
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
         LOGO
       </h2>

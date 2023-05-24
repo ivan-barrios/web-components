@@ -1,6 +1,6 @@
 import { CiDiscount1 } from "react-icons/ci";
 import Image from "next/image";
-import robot from "../public/robot.png";
+import robot from "@/public/robot.png";
 
 const Hero = () => {
   return (
